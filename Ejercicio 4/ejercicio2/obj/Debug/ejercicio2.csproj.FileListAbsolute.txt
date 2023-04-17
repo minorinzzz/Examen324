@@ -1,0 +1,10 @@
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\bin\ejercicio2.dll
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\bin\ejercicio2.pdb
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\obj\Debug\ejercicio2.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\obj\Debug\ejercicio2.dll
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\obj\Debug\ejercicio2.pdb
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 4\ejercicio2\bin\ejercicio2.dll
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 4\ejercicio2\bin\ejercicio2.pdb
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 4\ejercicio2\obj\Debug\ejercicio2.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 4\ejercicio2\obj\Debug\ejercicio2.dll
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 4\ejercicio2\obj\Debug\ejercicio2.pdb
