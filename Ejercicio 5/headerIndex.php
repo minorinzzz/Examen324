@@ -62,7 +62,7 @@
 
 						<!-- menu start -->
 						
-						<a class="mobile-show search-bar-icon" href="#"><?php $CI=$_GET["CI"]?></a>
+						<a class="mobile-show search-bar-icon" href="#"><?php //$CI=$_GET["CI"]?></a>
 						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>

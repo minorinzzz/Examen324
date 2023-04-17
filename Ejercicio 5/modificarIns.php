@@ -65,7 +65,7 @@ if(isset($_GET["operacion"])){
         echo "<label for=''>Estudiante</label><select name='CI' id='' required>";
         $resultado = mysqli_query($con,"select * from usuario;");
         while($datos = mysqli_fetch_array($resultado)){
-            if($datos["rol"]=="ESTUDIANTE"){
+            if($datos["ROL"]=="ESTUDIANTE"){
                 $resultado2 = mysqli_query($con,"select * from persona;");
                 while($datos2 = mysqli_fetch_array($resultado2)){
                     if($datos["CI"]==$datos2["CI"]){
