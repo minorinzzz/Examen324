@@ -1,0 +1,5 @@
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\bin\ejercicio2.dll
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\bin\ejercicio2.pdb
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\obj\Release\ejercicio2.dll
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\obj\Release\ejercicio2.pdb
+C:\Users\Usuario\Downloads\ejercicio2\ejercicio2\ejercicio2\obj\Release\ejercicio2.csprojResolveAssemblyReference.cache
