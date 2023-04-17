@@ -1,0 +1,3 @@
+Implemente un WEB SERVICE en VISUAL STUDIO que permita altas, bajas y cambios en PERSONA, usando la misma en aplicación WindowsForm.
+
+A falta de tiempo no se pudo resolver
