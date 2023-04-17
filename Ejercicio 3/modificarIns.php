@@ -30,7 +30,17 @@ if(isset($_GET["operacion"])){
     $nombre=$datos2["nombreCompleto"];
 }
 ?>
-<form action="modificarInsG.php" method="POST">
+
+
+
+<?php include 'headerIndex.php'; ?>
+
+
+        <section id="home" class="home">
+            <div class=" formcontainer">
+
+
+<form action="modificarInsG.php" method="POST" class="formModificar">
 <label for="">idInscripcion</label>
 
 <?php
@@ -58,7 +68,7 @@ if(isset($_GET["operacion"])){
             if($datos["ROL"]=="ESTUDIANTE"){
                 $resultado2 = mysqli_query($con,"select * from persona;");
                 while($datos2 = mysqli_fetch_array($resultado2)){
-                    if($datos["CIestudiante"]==$datos2["CI"]){
+                    if($datos["CI"]==$datos2["CI"]){
                         $nombre=$datos2["nombreCompleto"];
                         break;
                     }
@@ -85,3 +95,11 @@ if(isset($_GET["operacion"])){
 <input type="submit" value="aceptar" name="aceptar">
 </form>
 <a href="listado.php"><button>Cancelar</button></a>
+
+</div>       
+                   
+                   </section>
+
+
+<?php include 'footer.php'; ?>
+    

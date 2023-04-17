@@ -1,33 +1,31 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudiantes</title>
-</head>
-<body>
-    
+<?php include 'headerIndex.php'; ?>
 
+
+
+
+        <!-- Start Slider  -->
+        <section id="home" class="home">
+            
+                            <div class=" formcontainer">
 <?php
 include("conexion.inc.php");
 $resultado = mysqli_query($con,"select * from inscripcion;");
 $nro=1;
 ?>
-<h1>Estudiantes</h1>
+<h1 style="color: #fff;">Estudiantes</h1>
 <table border="1px">
     <tr>
-        <td>Nro</td>
-        <td>CI</td>
-        <td>Nombre Completo</td>
-        <td>Departamento</td>
-        <td>Sigla</td>
-        <td>nota1</td>
-        <td>nota2</td>
-        <td>nota3</td>
-        <td>Nota Final</td>
-        <td colspan="2">Operaciones</td>
+        <td><strong>Nro</strong> </td>
+        <td><strong>CI</strong>  </td>
+        <td><strong>Nombre Completo</strong>  </td>
+        <td><strong>Departamento</strong>  </td>
+        <td><strong>Sigla</strong>  </td>
+        <td><strong>Nota1</strong>  </td>
+        <td><strong>Nota2</strong>  </td>
+        <td><strong>Nota3</strong>  </td>
+        <td><strong>Nota Final</strong>  </td>
+        <td colspan="2"><strong>Operaciones</strong>  </td>
     </tr>
 <?php
 while($datos = mysqli_fetch_array($resultado)){
@@ -37,7 +35,7 @@ while($datos = mysqli_fetch_array($resultado)){
     echo "<td>".$CI."</td>";
     $resultado2 = mysqli_query($con,"select * from persona;");
     while($datos2 = mysqli_fetch_array($resultado2)){
-        if($CI = $datos2["CI"]){
+        if($CI == $datos2["CI"]){
             echo "<td>".$datos2["nombreCompleto"]."</td>";
             echo "<td>".$datos2["departamento"]."</td>";
             break;
@@ -55,7 +53,18 @@ while($datos = mysqli_fetch_array($resultado)){
 }
 ?>
 </table>
+
+<div class="botonesTable">
+
 <a href="modificarIns.php?operacion=adicionar"><button>Adicionar</button></a>
 <a href="index.php"><button>Cerrar Sesion</button></a>
-</body>
-</html>
+
+
+</div>
+</div>       
+                   
+                   </section>
+
+
+<?php include 'footer.php'; ?>
+    

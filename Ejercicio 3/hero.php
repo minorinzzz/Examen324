@@ -9,7 +9,8 @@
 							<h1>Facultad de Ciencias Puras y Naturales</h1>
 							<div class="hero-btns">
 								<a href="materia.php?titulo=Física" class="boxed-btn">Ver Carreras</a>
-								<a href="https://www.fcpn.edu.bo/" class="bordered-btn">Ver más</a>
+								<a href="https://www.fcpn.edu.bo/" class="boxed-btn">Ver más</a>
+								
 							</div>
 						</div>
 					</div>

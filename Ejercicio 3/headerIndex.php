@@ -54,24 +54,15 @@
 					<div class="main-menu-wrap">
 						<!-- logo -->
 						<div class="site-logo">
-							<a href="index.php">
+							<a href="#">
 								<img style="width: 40px;" src="assets/img/logo.png" alt="">
 							</a>
 						</div>
 						<!-- logo -->
 
 						<!-- menu start -->
-						<nav class="main-menu">
-							<ul class="nav">
-								<li><a href="materia.php?titulo=Matemática">Matemática</a></li>
-								<li><a href="materia.php?titulo=Física">Física</a></li>
-								<li><a href="materia.php?titulo=Química">Química</a></li>
-								<li><a href="materia.php?titulo=Informática">Informática</a></li>
-								<li><a href="index.php">Cerrar Sesión</a></li>
-							</ul>
-						</nav>
-
-						<a class="mobile-show search-bar-icon" href="#"><?php $CI=$_GET["CI"]?></a>
+						
+						<a class="mobile-show search-bar-icon" href="#"><?php //$CI=$_GET["CI"]?></a>
 						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
