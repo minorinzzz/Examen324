@@ -1,0 +1,5 @@
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WebService1\WebService1\bin\WebService1.dll
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WebService1\WebService1\bin\WebService1.pdb
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WebService1\WebService1\obj\Debug\WebService1.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WebService1\WebService1\obj\Debug\WebService1.dll
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WebService1\WebService1\obj\Debug\WebService1.pdb

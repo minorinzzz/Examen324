@@ -1,0 +1,10 @@
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\xampp\htdocs\INF324\Examen\Examen324\Ejercicio 7\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
