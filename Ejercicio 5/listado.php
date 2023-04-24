@@ -25,7 +25,6 @@ $nro=1;
         <td><strong>Nota2</strong>  </td>
         <td><strong>Nota3</strong>  </td>
         <td><strong>Nota Final</strong>  </td>
-        <td colspan="2"><strong>Operaciones</strong>  </td>
     </tr>
 <?php
 while($datos = mysqli_fetch_array($resultado)){
@@ -46,8 +45,6 @@ while($datos = mysqli_fetch_array($resultado)){
     echo "<td>".$datos["nota2"]."</td>";
     echo "<td>".$datos["nota3"]."</td>";
     echo "<td>".$datos["notaFinal"]."</td>";
-    echo "<td><a href='modificarIns.php?id=".$datos["idInscripcion"]."'>Modificar</a></td>";
-    echo "<td><a href='eliminar.php?id=".$datos["idInscripcion"]."'>Eliminar</a></td>";
     echo "</tr>";
     $nro=$nro+1;
 }
@@ -56,7 +53,6 @@ while($datos = mysqli_fetch_array($resultado)){
 
 <div class="botonesTable">
 
-<a href="modificarIns.php?operacion=adicionar"><button>Adicionar</button></a>
 <a href="informe.php"><button>Promedio de Notas</button></a>
 <a href="index.php"><button>Cerrar Sesion</button></a>
 
