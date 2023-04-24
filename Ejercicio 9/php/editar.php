@@ -16,12 +16,29 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $departamento=$_POST["departamento"];
             $fechaDeNacimiento=$_POST["fechaDeNacimiento"];
             $nombreCompleto=$_POST["nombreCompleto"];
+            if (is_numeric($CI)) {
+                $sql="select * from persona where CI=".$CI;
+                $resultado1 = mysqli_query($con,$sql);
+                if (mysqli_num_rows($resultado1) > 0) {
+                    if (strlen($departamento) == 2 && ctype_digit($departamento)) {
+                        $sql="update persona 
+                        set nombreCompleto='$nombreCompleto',fechaDeNacimiento='$fechaDeNacimiento',
+                        telefono='$telefono',departamento='$departamento'
+                        where CI=$CI;";
+                        $resultado = mysqli_query($con,$sql);
+                    } else {
+                        $response['message'] = "This departamento don't have the correct model";
+                        $response['success'] = false;
+                    }
+                }else{
+                    $response['message'] = "This CI don't exist";
+                    $response['success'] = false;
+                } 
+            } else {
+                $response['message'] = "This CI don't have only numbers";
+                $response['success'] = false;
+            }
             
-            $sql="update persona 
-            set nombreCompleto='$nombreCompleto',fechaDeNacimiento='$fechaDeNacimiento',
-            telefono='$telefono',departamento='$departamento'
-            where CI=$CI;";
-            $resultado = mysqli_query($con,$sql);
 
             $existe=true;
         }
