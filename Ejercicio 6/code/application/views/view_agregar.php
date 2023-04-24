@@ -95,19 +95,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             ?>
             <form action="/code/index.php/Lectura/adicionar" method="POST">
             <label for="">CI</label>
-            <input type="number" name="CI" id="" value="<?php echo $CI;?>" required>
+            <input type="number" name="CI" id="" value="" required>
             <br>
             <label for="">Nombre Completo</label>
-            <input type="text" name="nombreCompleto" id="" value="<?php echo $nombre;?>">
+            <input type="text" name="nombreCompleto" id="" value="">
             <br>
             <label for="">Fecha de Nacimiento</label>
-            <input type="date" name="fechaDeNacimiento" id="" value="<?php echo $fechaNac;?>">
+            <input type="date" name="fechaDeNacimiento" id="" value="">
             <br>
             <label for="">Telefono</label>
-            <input type="text" name="telefono" id="" value="<?php echo $telefono;?>">
+            <input type="text" name="telefono" id="" value="">
             <br>
             <label for="">Departamento (Tamaño: 2, Solo numeros)</label>
-            <input type="text" name="departamento" id="" pattern="[0-9]{0,2}" maxlength="2" value="<?php echo $departamento;?>">
+            <input type="text" name="departamento" id="" pattern="[0-9]{0,2}" maxlength="2" value="">
             <br>
 			<input type="submit" value="aceptar" name="aceptar">
         </form>

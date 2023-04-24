@@ -19,6 +19,12 @@ class Academicosarai_model extends CI_Model {
         $query=$this->db->query("select * from persona where CI=$CI");
         return $query->result();
 	}
+	public function buscar($CI)
+	{
+		$this->load->database();
+        $query=$this->db->query("select * from persona where CI=$CI");
+        return $query->num_rows();
+	}
 	public function personaAdd($CI,$nombreCompleto,$fechaDeNacimiento,$telefono,$departamento){
 		$this->load->database();
         $query=$this->db->query("insert into persona (CI,nombreCompleto,fechaDeNacimiento,telefono,departamento) 

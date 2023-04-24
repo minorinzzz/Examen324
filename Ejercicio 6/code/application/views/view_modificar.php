@@ -94,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             ?>
             <form action="/code/index.php/Lectura/editar" method="POST">
             <label for="">CI</label>
-            <input type="number" name="CI" id="" value="<?php echo $CI;?>" required>
+            <input type="number" name="CI" id="" value="<?php echo $CI;?>" required readonly>
             <br>
             <label for="">Nombre Completo</label>
             <input type="text" name="nombreCompleto" id="" value="<?php echo $nombre;?>">

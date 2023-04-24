@@ -49,8 +49,18 @@ class Lectura extends CI_Controller {
 		$datos["telefono"]=$_POST["telefono"];
 		$datos["departamento"]=$_POST["departamento"];
 		$this->load->model("Academicosarai_model");
-		$this->Academicosarai_model->personaAdd($datos["CI"],$datos["nombreCompleto"],$datos["fechaDeNacimiento"],$datos["telefono"],$datos["departamento"]);
-		$this->load->view('view_insert', $datos);
+		try{
+			$nro = $this->Academicosarai_model->buscar($datos["CI"]);
+		}catch(Exception $e){
+			$nro=0;
+		}
+		if($nro == 0){
+			$this->Academicosarai_model->personaAdd($datos["CI"],$datos["nombreCompleto"],$datos["fechaDeNacimiento"],$datos["telefono"],$datos["departamento"]);
+			$this->load->view('view_insert', $datos);
+		}else{
+			$this->load->view('view_agregar');
+		}
+		
 	}
 }
 
