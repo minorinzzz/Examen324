@@ -16,13 +16,7 @@
                             <input type="password" name="password" value="">
                             <br>
                             <input type="submit" value="Aceptar" name="Aceptar">
-                            <a class="buttonIndex" href="modificar.php?operacion=agregar">Nuevo Usuario</a>
-                        </form>
-                        
-
-
-
-
+                             </form>
 
 						</div>
 					</div>
